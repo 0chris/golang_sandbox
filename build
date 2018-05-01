@@ -1,0 +1,3 @@
+#!/bin/sh
+go build -buildmode=c-shared -o lib/libshared.so lib/shared.go
+go build main.go
